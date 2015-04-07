@@ -14,10 +14,6 @@ import java.io.*;
 public class Main {
     public static void main(String[] cl_args) {
         
-        while(!false) {
-            System.out.println("Ur face!");
-        }
-        
         try {
             Thread server = new GreetingServer();
             server.start();
